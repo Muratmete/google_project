@@ -1,0 +1,152 @@
+* {
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+.head {
+  height: 100px;
+
+  /* display: flex; */
+  text-align: right;
+}
+
+.head .header a {
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  color: black;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.foto {
+  width: cover;
+}
+.foto img {
+  height: auto;
+  margin-right: auto;
+  margin-left: 40%;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search input {
+  width: 584px;
+  height: 44px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-left: 60px;
+}
+
+.search input:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.24);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#mic {
+  position: relative;
+  display: inline;
+  right: 40px;
+  cursor: pointer;
+}
+#glass {
+  position: relative;
+  display: inline;
+  left: 50px;
+  cursor: pointer;
+}
+
+#btn1 {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* padding: 9px 15px; */
+}
+#btn2 {
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#but_1:hover,
+#but_2:hover {
+  background-color: #f1f1f1;
+}
+
+.button {
+  /* display: flex; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#but_1 {
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  width: 124px;
+  height: 36px;
+  margin-right: 10px;
+}
+#but_2 {
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  width: 214px;
+  height: 36px;
+}
+.aciklama {
+  text-align: center;
+  margin-top: 20px;
+}
+.ust_foot {
+  background-color: #f2f2f2;
+  height: 48px;
+  width: cover;
+  font-size: 15px;
+  border-bottom: 1px solid #70757a;
+}
+.ust_foot p {
+  padding-top: 15px;
+}
+.foot {
+  background-color: #f2f2f2;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+
+  /* display: inline-block; */
+  /* display: inline-flex; */
+}
+.sag {
+  display: flex;
+  /* justify-content: flex-end; */
+  text-decoration: none;
+  cursor: pointer;
+}
+.foot a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #202124;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
